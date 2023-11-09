@@ -1825,6 +1825,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@daifee/linked-list@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@daifee/linked-list@npm:1.2.0"
+  checksum: 3140ee33f42c72fd6ee9acd374bc50dc4d3a9d74b92eda99be79ea5b41aa9414b784c5d4e024305ffd43548c66b693db32334c43d271562aff7c07f0fa8a5a7e
+  languageName: node
+  linkType: hard
+
+"@daifee/queue@npm:^1.0.0":
+  version: 1.3.2
+  resolution: "@daifee/queue@npm:1.3.2"
+  dependencies:
+    "@daifee/linked-list": "npm:^1.2.0"
+  checksum: 156e4381638f1e49893bd8865d5954134e456169d248a370dafeadde3beaccdafd72f5e9d3638f34199b0dd103c31d90de4271a155b45091aa92659db9f7285e
+  languageName: node
+  linkType: hard
+
 "@daifee/queue@npm:^4.0.4, @daifee/queue@workspace:^, @daifee/queue@workspace:packages/queue":
   version: 0.0.0-use.local
   resolution: "@daifee/queue@workspace:packages/queue"
@@ -9481,6 +9497,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "my-next-app@workspace:applications/my-next-app"
   dependencies:
+    "@daifee/queue": "npm:^1.0.0"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
