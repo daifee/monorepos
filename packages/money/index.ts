@@ -1,3 +1,4 @@
 
+import queue from '@daifee/queue';
 
-export default "money";
+export default "money" + queue;
